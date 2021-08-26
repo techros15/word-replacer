@@ -11,8 +11,8 @@
     "url": "git+https://github.com/techros15/random-word-replace.git"
   },
   "keywords": ["random", "word", "replace"],
-  "author": "",
-  "license": "ISC",
+  "author": "Hector Speight",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/techros15/random-word-replace/issues"
   },
