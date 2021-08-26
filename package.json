@@ -1,0 +1,20 @@
+{
+  "name": "random-word-replace",
+  "version": "0.0.1",
+  "description": "> Randomly replaces a word in a string with the provided word",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techros15/random-word-replace.git"
+  },
+  "keywords": ["random", "word", "replace"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techros15/random-word-replace/issues"
+  },
+  "homepage": "https://github.com/techros15/random-word-replace#readme"
+}
