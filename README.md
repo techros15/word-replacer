@@ -8,7 +8,7 @@
 $ npm install random-word-replace
 ```
 
-## Usage
+## Usage examples
 
 ```js
 var randomWordReplace = require('random-word-replace');
