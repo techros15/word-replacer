@@ -15,11 +15,11 @@ var randomWordReplace = require('random-word-replace');
 
 var str = "Whoever is happy will make others happy too"; 
 
-// Substitute the word at element 3 with the word 'blank'
+// Substitute the 3rd word with the word 'blank'
 randomWordReplace(str, 3, 'blank');
 //=> "Whoever is happy blank make others happy too"
 
-// Substitute the word at a random element with the word 'blank'
+// Substitute a random word with the word 'blank'
 randomWordReplace(str, -1, 'blank');
 //=> "Whoever is happy will make blank happy too" # given random element is 5
 
