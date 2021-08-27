@@ -1,6 +1,6 @@
 # word-replacer
 
-> Randomly replaces a word in a string with the provided word
+> Replaces a word in a string with the provided word or a random word
 
 ## Install
 
@@ -19,7 +19,7 @@ var str = "Whoever is happy will make others happy too";
 wordReplacer(str, 4, 'blank');
 //=> "Whoever is happy blank make others happy too"
 
-// Substitute a random word with the word 'blank'
+// Substitute a word chosen randomly with the word 'blank'
 wordReplacer(str, -1, 'blank');
 //=> "Whoever is happy will make blank happy too" 
 
