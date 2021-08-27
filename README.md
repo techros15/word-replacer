@@ -1,4 +1,4 @@
-# random-word-replace
+# word-replacer
 
 > Randomly replaces a word in a string with the provided word
 
@@ -11,24 +11,24 @@ $ npm install random-word-replace
 ## Usage examples
 
 ```js
-var randomWordReplace = require('random-word-replace');
+var wordReplacer = require('word-replacer');
 
 var str = "Whoever is happy will make others happy too"; 
 
-// Substitute the 3rd word with the word 'blank'
-randomWordReplace(str, 3, 'blank');
+// Substitute the 4th word with the word 'blank'
+wordReplacer(str, 4, 'blank');
 //=> "Whoever is happy blank make others happy too"
 
 // Substitute a random word with the word 'blank'
-randomWordReplace(str, -1, 'blank');
-//=> "Whoever is happy will make blank happy too" # given random element is 5
+wordReplacer(str, -1, 'blank');
+//=> "Whoever is happy will make blank happy too" 
 
 // Substitute the first occurrence of a word
-randomWordReplace(str, 'happy', 'blank');
+wordReplacer(str, 'happy', 'blank');
 //=> "Whoever is blank will make others happy too"
 
 // Substitute a word globally
-randomWordReplace(str, 'happy', 'blank', 'g');
+wordReplacer(str, 'happy', 'blank', 'g');
 //=> "Whoever is blank will make others blank too"
 
 ```
