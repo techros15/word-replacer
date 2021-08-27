@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm install random-word-replace
+$ npm install word-replacer
 ```
 
 ## Usage examples
