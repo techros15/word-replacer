@@ -32,4 +32,7 @@ wordReplacer(str, 'happy', 'blank', 'g');
 //=> "Whoever is blank will make others blank too"
 
 ```
-![npm](https://img.shields.io/npm/v/word-replacer)
+## License
+
+MIT
+```
