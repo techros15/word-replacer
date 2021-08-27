@@ -1,6 +1,6 @@
 {
   "name": "word-replacer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "> Replace a word in a string",
   "main": "index.js",
   "scripts": {
