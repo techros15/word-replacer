@@ -35,4 +35,4 @@ wordReplacer(str, 'happy', 'blank', 'g');
 ## License
 
 MIT
-```
+
