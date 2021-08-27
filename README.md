@@ -32,3 +32,7 @@ wordReplacer(str, 'happy', 'blank', 'g');
 //=> "Whoever is blank will make others blank too"
 
 ```
+## License
+
+MIT
+```
