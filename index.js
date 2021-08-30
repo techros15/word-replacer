@@ -1,8 +1,9 @@
 module.exports = (str, el, wordSub, repScope) => {
   var words = {};
-  if (typeof el === 'number') {
+  if (typeof el === 'object') {
     let w = str.split(' ');
-    let e = el === -1 ? Math.floor(Math.random() * w.length) : el -1;
+    let e = el[0] === -1 ? Math.floor(Math.random() * w.length) : el[Math.floor(Math.random() * el.length)];
+    words.word = w[e];
     w[e] = wordSub;
     words.text = w.join(' ');
   } else {
